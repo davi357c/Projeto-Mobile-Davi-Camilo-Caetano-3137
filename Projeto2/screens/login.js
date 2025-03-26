@@ -1,6 +1,6 @@
 import { StyleSheet, Text, TextInput, Button, View, Image } from 'react-native';
 
-export default function Login() {
+export default function Login({navigation}) {
     return (
         <View style={styles.tudo}>
             <Text style={styles.title}>Logue para ver as comidas típicas de cada país</Text>
@@ -13,7 +13,7 @@ export default function Login() {
                 />
             </View>
             <Button
-                title="Entrar"
+                title="Entrar" onPress = {() => navigation.navigate("Home")}
             />
             <Text style={styles.creditos}>Made by: Davi Camilo Caetano.</Text>
         </View>

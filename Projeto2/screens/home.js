@@ -5,6 +5,7 @@ import feijoada2 from '../images/feijoada2.jpg'
 import taco1 from '../images/taco1.jpg'
 import taco2 from '../images/taco2.jpg'
 
+
 export default function Home() {
     return (
         <ImageBackground style={{flex: 1, width: '100%', height: '100%'}} source = {BackGround}>
