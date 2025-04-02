@@ -13,7 +13,7 @@ export default function Login({navigation}) {
                 />
             </View>
             <Button
-                title="Entrar" onPress = {() => navigation.navigate("Home")}
+                title="Entrar" onPress = {() => navigation.navigate("HomeTabs")}
             />
             <Text style={styles.creditos}>Made by: Davi Camilo Caetano.</Text>
         </View>
